@@ -1,0 +1,7 @@
+```{r}
+#| label: load-data-packages
+
+# install.packages("hoopR")
+library(hoopR)
+
+```

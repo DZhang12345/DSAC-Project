@@ -1,7 +1,38 @@
+---
+
+---
+
 ```{r}
 #| label: load-data-packages
 
 # install.packages("hoopR")
 library(hoopR)
+library(tidyverse)
+
+college_team <- load_mbb_team_box()
+college_player <- load_mbb_player_box()
+```
+
+Introduction:
+
+Research Question:
+
+-What statistics indicate if a team is going to perform well in the tournament
+
+-What is the biggest predictor of upsets
+
+-Estimation of confidence intervals for the true population difference in certain stats among games that are play in conference, out conference, conference tournament, and national tournament
+
+-Estimation of true mean difference in points per game of a team vs the money line o/u spread
+
+Transformation of Data:
+
+```{r}
+
+```
+
+EDA:
+
+```{r}
 
 ```
